@@ -1,0 +1,17 @@
+/*Fazer um algoritmo que leia um número inteiro e mostre uma mensagem dizendo se é primo ou
+não.*/
+#include <stdio.h>
+int main(){
+    int a;
+    printf ("Informe um numero:");
+    scanf ("%i", &a);
+    for(int i=a-1; 1>=2; i-=1){
+        if (i%2==0){
+            
+            printf ("não é Primo %i", i);
+            return 0;
+        }
+    }
+    printf ("É primo");
+    return 0;
+}
